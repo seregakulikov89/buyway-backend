@@ -3,6 +3,7 @@ services:
     name: buyway-backend
     env: node
     plan: free
-    buildCommand: npm install
-    startCommand: npm start
+    rootDir: .
+    buildCommand: "npm install"
+    startCommand: "npm start"
     autoDeploy: false
